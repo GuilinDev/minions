@@ -279,11 +279,11 @@ body{
         -webkit-transform:rotate(33deg);
     }
 }
-.hands{
+.minion_hands{
     position: relative;
 }
-.hands .leftHand,
-.hands .rightHand{
+.minion_hands .left_hand,
+.minion_hands .right_hand{
     width: 80px;
     height: 80px;
     border:6px solid #000;
@@ -293,9 +293,9 @@ body{
     top:220px;
     left:-23px;
     -webkit-transform:rotate(40deg);
-    -webkit-animation:rightHand .8s ease-in-out infinite;
+    -webkit-animation:right_hand .8s ease-in-out infinite;
 }
-@-webkit-keyframes rightHand{
+@-webkit-keyframes right_hand{
     0%,50%,100%{
         -webkit-transform: rotate(40deg);
     }
@@ -303,13 +303,13 @@ body{
         -webkit-transform: rotate(37deg) translateX(1px);
     }
 }
-.hands .leftHand{
+.minion_hands .left_hand{
     left:182px;
     top:220px;
     -webkit-transform:rotate(-40deg);
-    -webkit-animation:leftHand .8s ease-in-out infinite;
+    -webkit-animation:left_hand .8s ease-in-out infinite;
 }
-@-webkit-keyframes leftHand{
+@-webkit-keyframes left_hand{
     0%,50%,100%{
         -webkit-transform: rotate(-40deg);
     }
@@ -317,8 +317,8 @@ body{
         -webkit-transform: rotate(-37deg) translateX(-1px);
     }
 }
-.hands .leftHand:after,
-.hands .rightHand:after{
+.minion_hands .left_hand:after,
+.minion_hands .right_hand:after{
     content: '';
     width: 6px;
     border:3px solid #000;
@@ -329,7 +329,7 @@ body{
     -webkit-transform:rotate(90deg);
 }
 
-.hands .leftHand:after{
+.minion_hands .left_hand:after{
     left:53px;
     top:50px;
     -webkit-transform:rotate(-90deg);
