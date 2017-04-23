@@ -238,7 +238,7 @@ body{
     left:98px;
     z-index: 3;
     -webkit-transform:rotate(-35deg);
-    -webkit-animation: mouse 5s ease-in-out infinite;
+    -webkit-animation: minion_mouse 5s ease-in-out infinite;
 }
 @-webkit-keyframes minion_mouse{
     40%,43%{
